@@ -22,7 +22,7 @@ int main()
        }
        else if(s[i]=='W'){
            if(i!=0 && s[i-1]=='E') x=0;
-          else x+=1;
+          else x-=1;
        }
    }
   if(x==0&&y==0) cout<<"Yes\n";
